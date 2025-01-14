@@ -28,3 +28,9 @@ python get_skelton_video.py
 ```
 python estimation_yolo_video.py
 ```
+
+## 開発者
+
+* 作成者：上野瑛博
+* 所属：関西学院大学工学部情報工学課程
+* E-mail：guv80359@kwansei.ac.jp
