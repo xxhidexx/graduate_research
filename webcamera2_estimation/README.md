@@ -17,7 +17,7 @@ get_skelton_video.pyで出力した骨格座標JSONファイルを読み込み�
 ```
 python rec_video.py
 ```
-実行すると、2台のカメラで動画が撮影され、保存されます。
+PCに2台の単眼カメラを接続し、実行すると、2台のカメラで動画が撮影され、保存されます。
 
 ### get_skelton_video.pyの使い方
 ```
