@@ -23,11 +23,13 @@ python rec_video.py
 ```
 python get_skelton_video.py
 ```
+rec_video.pyで出力された動画を読み込み、それぞれのフレームからYOLOを用いて骨格座標を取得し、骨格座標JSONファイルを出力します。
 
 ### estimation_yolo_video.pyの使い方
 ```
 python estimation_yolo_video.py
 ```
+get_skelton_video.pyで出力した骨格座標JSONファイルを読み込み、三角測量を適用することで3次元骨格座標を推定し、それぞれのフレームでの3次元骨格座標を結ぶ線を描画し、アニメーションを出力します。
 
 ## 開発者
 
