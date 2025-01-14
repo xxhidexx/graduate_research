@@ -34,23 +34,13 @@ gen_skes.pyで出力されたnpzファイルを読み込み、カメラ座標系
     python gen_skes.py -v baseball.mp4 -np 1
 ```
 
-### rec_video.pyの使い方
+### skelton_visual_camera.pyの使い方
 ```
-python rec_video.py
-```
-実行すると、2台のカメラで動画が撮影され、保存されます。
-
-
-### get_skelton_video.pyの使い方
-```
-python get_skelton_video.py
+python skelton_visual_camera.py
 ```
 
 
-### estimation_yolo_video.pyの使い方
-```
-python estimation_yolo_video.py
-```
+
 
 ## 開発者
 
