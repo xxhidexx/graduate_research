@@ -17,15 +17,21 @@ gen_skes.pyで出力されたnpzファイルを読み込み、カメラ座標系
 
 ### gen_skes.pyの使い方
 
-####　アニメーションを出力する場合
-```
-python calculate_coordinates.py
-```
-キャリブレーションを行う際に使用し、画像内の任意の点をクリックすると、その画像内の座標を取得することができます。
+* アニメーションを出力する場合
+    * 1人の骨格座標を推定する場合
+    ```
+    python gen_skes.py -v baseball.mp4 -np 1 --animation
+    ```
 
-####　骨格座標をnpzファイルに保存する場合
+    * 2人の骨格座標を推定する場合
+    ```
+    python gen_skes.py -v baseball.mp4 -np 2 --animation
+    ```
+
+
+* 骨格座標をnpzファイルに保存する場合
 ```
-python calculate_coordinates.py --save
+    python gen_skes.py -v baseball.mp4 -np 1
 ```
 
 ### rec_video.pyの使い方
