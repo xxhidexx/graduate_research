@@ -1,6 +1,6 @@
 # Graduation-research
 
-## プログラムの仕様・使い方
+## プログラムの仕様
 
 ### rec_video.py
 接続された2台のカメラで動画を撮影し、保存するプログラムです。
@@ -16,6 +16,8 @@ get_skelton_video.pyで出力した骨格座標JSONファイルを読み込み�
 python rec_video.py
 ```
 実行すると、2台のカメラで動画が撮影され、保存されます。
+
+## プログラムの使い方
 
 ### get_skelton_video.pyの使い方
 ```
