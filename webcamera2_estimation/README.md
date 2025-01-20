@@ -11,6 +11,11 @@
 ### estimation_yolo_video.py
 get_skelton_video.pyで出力した骨格座標JSONファイルを読み込み、それぞれのフレームでの骨格座標を結ぶ線を描画し、アニメーションを出力するプログラムです。
 
+## 必要なパッケージのインストール法
+```
+pip install -r requirements.txt
+```
+
 ## プログラムの使い方
 
 ### rec_video.pyの使い方
