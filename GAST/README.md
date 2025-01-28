@@ -24,7 +24,13 @@ pip install -r requirements.txt
 cd root_path
 mkdir checkpoint
 cd checkpoint
+mkdir gastnet
+mkdir yolov3
+mkdir hrnet
 ```
+* モデルファイルのダウンロード
+    * gastnetモデルファイル
+    学習済みGAST-Netモデル[27_frame_model.bin](https://drive.google.com/file/d/1vh29QoxIfNT4Roqw1SuHDxxKex53xlOB/view)をダウンロードして、checkpoint/gastnetフォルダに保存する
 
 
 * アニメーションを出力する場合
