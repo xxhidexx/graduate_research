@@ -40,7 +40,7 @@ mkdir hrnet
     ```
     * hrnetモデルファイル
     checkpoint/hrnetフォルダ内にpose_cocoフォルダを作成し、学習済みHRNetモデル[pose_hrnet_w48_384x288.pth](https://drive.google.com/file/d/1UoJhTtjHNByZSm96W3yFTfU5upJnsKiS/view)をダウンロードして、pose_cocoフォルダに保存する
-    ```
+    
 
 最終的なフォルダ構成は以下のようになります。
 ```
