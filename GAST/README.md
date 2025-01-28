@@ -19,6 +19,14 @@ pip install -r requirements.txt
 
 ### gen_skes.pyの使い方
 
+* 必要なモデルファイルのダウンロードをするフォルダの作成
+```
+cd root_path
+mkdir checkpoint
+cd checkpoint
+```
+
+
 * アニメーションを出力する場合
     * 1人の骨格座標を推定する場合
     ```
