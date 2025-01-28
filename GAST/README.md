@@ -30,7 +30,31 @@ mkdir hrnet
 ```
 * モデルファイルのダウンロード
     * gastnetモデルファイル
-    学習済みGAST-Netモデル[27_frame_model.bin](https://drive.google.com/file/d/1vh29QoxIfNT4Roqw1SuHDxxKex53xlOB/view)をダウンロードして、checkpoint/gastnetフォルダに保存する
+    学習済みGAST-Netモデル[27_frame_model.bin](https://drive.google.com/file/d/1vh29QoxIfNT4Roqw1SuHDxxKex53xlOB/)をダウンロードして、checkpoint/gastnetフォルダに保存する
+    * yolov3モデルファイル
+    学習済みYOLOv3モデルをダウンロードして、checkpoint/yolov3フォルダに保存する
+    ```
+    cd checkpoint
+    mkdir yolov3
+    wget https://pjreddie.com/media/files/yolov3.weights
+    ```
+    * hrnetモデルファイル
+    checkpoint/hrnetフォルダ内にpose_cocoフォルダを作成し、学習済みHRNetモデル[pose_hrnet_w48_384x288.pth](https://drive.google.com/file/d/1UoJhTtjHNByZSm96W3yFTfU5upJnsKiS/view)をダウンロードして、pose_cocoフォルダに保存する
+    ```
+
+最終的なフォルダ構成は以下のようになります。
+```
+    ${root_path}
+    -- checkpoint
+        |-- yolov3
+            |-- yolov3.weights
+        |-- hrnet
+            |-- pose_coco
+                |-- pose_hrnet_w48_384x288.pth
+        |-- gastnet
+            |-- 27_frame_model.bin
+```
+
 
 
 * アニメーションを出力する場合
