@@ -56,7 +56,9 @@ mkdir hrnet
 
 
 * アニメーションを出力する場合
-あああ
+
+data/video内に保存された動画ファイルを引数にとり(以下の例では、data/video内のbaseball.mp4)とし、骨格座標を推定し、アニメーションを出力する(outputフォルダに出力される)
+
     * 1人の骨格座標を推定する場合
     ```
     python gen_skes.py -v baseball.mp4 -np 1 --animation
@@ -69,11 +71,17 @@ mkdir hrnet
 
 
 * 骨格座標をnpzファイルに保存する場合
+
+data/video内に保存された動画ファイルを引数にとり(以下の例では、data/video内のbaseball.mp4)とし、骨格座標を推定し、npzファイルを出力する(outputフォルダに出力される)
+
 ```
     python gen_skes.py -v baseball.mp4 -np 1
 ```
 
 ### skelton_visual_camera.pyの使い方
+
+骨格座標npzファイルのパスを指定し、骨格を描画する
+
 ```
 python skelton_visual_camera.py
 ```

@@ -10,7 +10,7 @@ ratio = 101.72144
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 # npzファイルのパス
-file_path = 'output/output0_rot.npz'
+file_path = 'output/baseball.npz'
 
 # npzファイルからデータを読み込む
 data = np.load(file_path)
