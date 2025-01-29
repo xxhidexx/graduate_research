@@ -56,6 +56,7 @@ mkdir hrnet
 
 
 * アニメーションを出力する場合
+あああ
     * 1人の骨格座標を推定する場合
     ```
     python gen_skes.py -v baseball.mp4 -np 1 --animation
