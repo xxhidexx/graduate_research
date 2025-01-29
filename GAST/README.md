@@ -21,7 +21,6 @@ pip install -r requirements.txt
 
 * 必要なモデルファイルのダウンロードをするフォルダの作成
 ```
-cd root_path
 mkdir checkpoint
 cd checkpoint
 mkdir gastnet
@@ -34,8 +33,7 @@ mkdir hrnet
     * yolov3モデルファイル
     学習済みYOLOv3モデルをダウンロードして、checkpoint/yolov3フォルダに保存する
     ```
-    cd checkpoint
-    mkdir yolov3
+    cd checkpoint/yolov3
     wget https://pjreddie.com/media/files/yolov3.weights
     ```
     * hrnetモデルファイル
