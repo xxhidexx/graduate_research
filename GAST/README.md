@@ -56,7 +56,6 @@ mkdir hrnet
 
 
 * アニメーションを出力する場合
-
 data/video内に保存された動画ファイルを引数にとり(以下の例では、data/video内のbaseball.mp4)とし、骨格座標を推定し、アニメーションを出力する(outputフォルダに出力される)
 
     * 1人の骨格座標を推定する場合
@@ -93,3 +92,4 @@ python skelton_visual_camera.py
 * 作成者：上野瑛博
 * 所属：関西学院大学工学部情報工学課程
 * E-mail：guv80359@kwansei.ac.jp
+
